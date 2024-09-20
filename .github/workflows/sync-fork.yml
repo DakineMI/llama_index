@@ -15,8 +15,4 @@ jobs:
 
     - name: Sync Fork Action
       uses: XueMoMo/Sync-Fork-action@v1.0.6
-      with:
-        upstream_repository: 'upstream-owner/repo-name'
-        upstream_branch: main
-        target_branch: main
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+
